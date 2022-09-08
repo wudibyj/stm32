@@ -1,0 +1,236 @@
+/////////////////////////////////////////////////////
+		Arduino接线
+/////////////////////////////////////////////////////
+传感器串口线（例程用的是串口2）
+5V	→	5V
+GND	→	GND
+TX	→	RX2
+RX	→	TX2
+
+7路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	8
+OUT2	→	9
+OUT3	→	10
+OUT4	→	11
+OUT5	→	12
+OUT6	→	13
+OUT7	→	14
+
+8路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	8
+OUT2	→	9
+OUT3	→	10
+OUT4	→	11
+OUT5	→	12
+OUT6	→	13
+OUT7	→	14
+OUT8	→	15
+
+12路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	2
+OUT2	→	3
+OUT3	→	4
+OUT4	→	5
+OUT5	→	6
+OUT6	→	7
+OUT7	→	8
+OUT8	→	9
+OUT9	→	10
+OUT10	→	11
+OUT11	→	12
+OUT12	→	13
+
+16路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	2
+OUT2	→	3
+OUT3	→	4
+OUT4	→	5
+OUT5	→	6
+OUT6	→	7
+OUT7	→	8
+OUT8	→	9
+OUT9	→	10
+OUT10	→	11
+OUT11	→	12
+OUT12	→	13
+OUT13	→	20
+OUT14	→	21
+OUT15	→	22
+OUT16	→	23
+
+电机驱动TB6612FNG接口（电机：N20减速电机，300转左右）
+VCC	→	5V
+PWMA	→	2
+PWMB	→	3
+AIN1	→	4
+AIN2	→	5
+BIN1	→	6
+BIN2	→	7
+/////////////////////////////////////////////////////
+		51单片机接线
+/////////////////////////////////////////////////////
+传感器串口线（例程用的是串口2）
+5V	→	5V
+GND	→	GND
+TX	→	P10
+RX	→	P11
+
+7路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	P33
+OUT2	→	P34
+OUT3	→	P35
+OUT4	→	P36
+OUT5	→	P37
+OUT6	→	P41
+OUT7	→	P42
+
+8路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	P33
+OUT2	→	P34
+OUT3	→	P35
+OUT4	→	P36
+OUT5	→	P37
+OUT6	→	P41
+OUT7	→	P42
+OUT8	→	P43
+
+12路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	P33
+OUT2	→	P34
+OUT3	→	P35
+OUT4	→	P36
+OUT5	→	P37
+OUT6	→	P41
+OUT7	→	P42
+OUT8	→	P43
+OUT9	→	P44
+OUT10	→	P20
+OUT11	→	P21
+OUT12	→	P22
+
+16路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	P33
+OUT2	→	P34
+OUT3	→	P35
+OUT4	→	P36
+OUT5	→	P37
+OUT6	→	P41
+OUT7	→	P42
+OUT8	→	P43
+OUT9	→	P44
+OUT10	→	P20
+OUT11	→	P21
+OUT12	→	P22
+OUT13	→	P23
+OUT14	→	P24
+OUT15	→	P27
+OUT16	→	P45
+
+电机驱动TB6612FNG接口（电机：N20减速电机，300转左右）
+VCC	→	5V
+PWMA	→	P26
+PWMB	→	P25
+AIN1	→	P02
+AIN2	→	P03
+BIN1	→	P01
+BIN2	→	P00
+
+/////////////////////////////////////////////////////
+		STM32接线
+/////////////////////////////////////////////////////
+传感器串口线（例程用的是串口3）
+5V	→	5V
+GND	→	GND
+TX	→	PC11
+RX	→	PC10
+
+7路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	PE8
+OUT2	→	PE9
+OUT3	→	PE10
+OUT4	→	PE11
+OUT5	→	PE12
+OUT6	→	PE13
+OUT7	→	PE14
+
+8路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	PE8
+OUT2	→	PE9
+OUT3	→	PE10
+OUT4	→	PE11
+OUT5	→	PE12
+OUT6	→	PE13
+OUT7	→	PE14
+OUT8	→	PE15
+
+12路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	PE8
+OUT2	→	PE9
+OUT3	→	PE10
+OUT4	→	PE11
+OUT5	→	PE12
+OUT6	→	PE13
+OUT7	→	PE14
+OUT8	→	PE15
+OUT9	→	PB10
+OUT10	→	PB11
+OUT11	→	PD12
+OUT12	→	PD13
+
+16路传感器普通数字接口
+5V	→	5V
+GND	→	GND
+OUT1	→	PE8
+OUT2	→	PE9
+OUT3	→	PE10
+OUT4	→	PE11
+OUT5	→	PE12
+OUT6	→	PE13
+OUT7	→	PE14
+OUT8	→	PE15
+OUT9	→	PB10
+OUT10	→	PB11
+OUT11	→	PD12
+OUT12	→	PD13
+OUT13	→	PD14
+OUT14	→	PD15
+OUT15	→	PA12
+OUT16	→	PA13
+
+电机驱动 WL-DRI-V1接口（电机：N20减速电机，300转左右）
+VCC	→	3.3V
+PWM1	→	PB8
+PWM2	→	PB9
+DIR1	→	PE0
+DIR2	→	PE1
+
+
+
+
+
+
+
+
+
